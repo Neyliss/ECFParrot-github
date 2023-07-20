@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Contact/contact.css">
+    <title>Contact</title>
+    <script src="/Contact/contact.js"></script>
+</head>
+<header class="navbar"> 
+    <nav>
+        <div class="logo">
+            <a href="/Page accueil /Acceuil.html">
+                <img src="/Imageprojet/LogoParrot.png" alt="logo">
+            </a>
+            
+        </div>
+    <div class="links">
+        <ul>
+            <li> <a href="/Page accueil /Acceuil.html"> Acceuil</a></li>
+            <li> <a href= "/voiture d'occasion/VoitureOcassion.php"> Voiture d'occasion </a> </li>
+            <li> <a href="/log/log.html">Connexion </a> </li>
+        </ul>
+    </div>
+
+    </nav>
+</header>
+
+<body>
+    <form id="contactForm" action="contact.php" method="post">
+        <label><b>Nom</b></label>
+        <input type="text" name="nom" placeholder="Entrer votre nom" required>
+        <br>
+        <label><b>Prénom</b></label>
+        <input type="text" name="prénom" placeholder="Entrer votre prénom" required>
+        <br>
+        <label><b>Téléphone</b></label>
+        <input type="tel" name="téléphone" placeholder="Entrer votre numéro" required>
+        <br>
+        <label><b>Adresse E-mail</b></label>
+        <input type="email" name="email" placeholder="Entrer votre adresse mail" required>
+        <br>
+        <label><b>Commentaire</b></label>
+        <textarea name="Commentaire" placeholder="Laissez un commentaire"></textarea>
+        <span class="commentaire">Votre commentaire est facultatif.</span>
+        <br>
+        <input type="submit" value="Envoyer"> 
+    </form>
+    <br>
+    <br>
+
+    <footer>
+        <ul> Horaires
+            <li>Lundi 8:45- 12:00, 14:00-18h00 </li>
+            <li>Mardi 8:45- 12:00, 14:00-18h00</li>
+            <li>Mercredi 8:45- 12:00, 14:00-18h00</li>
+            <li>Jeudi 8:45- 12:00, 14:00-18h00</li>
+            <li>Vendredi 8:45- 12:00, 14:00-18h00</li>
+            <li>Samedi 8:45 - 12:00</li>
+        </ul>
+    
+        <p >Contacter nous au 0101 ou en cliquant sur  le lien ci-dessous</p>
+        
+        <div class="contact">
+            <a href="/contact/contact.html"> Nous contacter </a> 
+        </div> 
+    </footer> 
+</body>
+</html>
+

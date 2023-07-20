@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Garage V.Parrot</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="acceuil.css">
+    <script src="/Page accueil /acceuil.js"></script>
+</head>
+<header class="navbar"> 
+    <nav>
+        <div class="logo">
+            <a href="/Page accueil /Acceuil.html">
+                <img src="/Imageprojet/LogoParrot.png" alt="logo">
+            </a>
+        </div>
+        <div class="links">
+            <ul>
+                <li> <a href="/Page accueil /Acceuil.html"> Acceuil</a></li>
+                <li> <a href= "/voiture d'occasion/Véhicule d'occasion.html"> Voiture d'occasion </a> </li>
+                <li> <a href="/log/log.html">Connexion </a> </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<body>
+    <h1><b>Bienvenue au Garage V. Parrot</b></h1>
+    <div class="historique"> 
+        <p>Notre garage est implanté à Toulouse depuis 2021. <br> Vincent Parrot, vous fera profiter de ses 15 ans d'expérience et d'expertise dans la réparation auto. <br> 
+        Nos employés sont à votre disposition et à votre écoute. Nous serons ravis de vous accueillir et de répondre au mieux à vos attentes.</p>
+        <br>
+         Pour vous permettre de bénneficier d'un accompagnement personnalisé et optimal, nous proposons de vous inscrire sur notre site pour ne pas manquer nos offres.
+    </div>
+    <br>
+    <div class="service">
+        <p>Nos services :</p>
+        <br>
+        <ul class="srv">
+            <li>&#10003; Réparation mécanique </li>
+            <br>
+            <li>&#10003; Restauration de la carrosserie </li>
+            <br>
+            <li>&#10003; Un entretien et un suivi régulier </li>
+            <br>
+            <li class="ap">&#10003; Un accompagnement personnalisé</li>
+        </ul>
+    </div>
+
+    <!-- Formulaire de commentaire et de notation -->
+    <div class="commentaire">
+        <h2>Donnez votre avis</h2>
+        <form action="/post_comment.php" method="post">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="rating">Note :</label>
+            <select id="rating" name="rating" required>
+                <option value="5">&#9733;&#9733;&#9733;&#9733;&#9733;</option>
+                <option value="4">&#9733;&#9733;&#9733;&#9733;&#9734;</option>
+                <option value="3">&#9733;&#9733;&#9733;&#9734;&#9734;</option>
+                <option value="2">&#9733;&#9733;&#9734;&#9734;&#9734;</option>
+                <option value="1">&#9733;&#9734;&#9734;&#9734;&#9734;</option>
+            </select>
+            <br>
+            <label for="comment">Commentaire :</label>
+            <textarea id="comment" name="comment" rows="4" cols="50"></textarea>
+            <br>
+            <input type="submit" value="Soumettre">
+        </form>
+    </div>
+</body>
+<footer>
+    <ul> Horaires
+        <li>Lundi 8:45- 12:00, 14:00-18h00 </li>
+        <li>Mardi 8:45- 12:00, 14:00-18h00</li>
+        <li>Mercredi 8:45- 12:00, 14:00-18h00</li>
+        <li>Jeudi 8:45- 12:00, 14:00-18h00</li>
+        <li>Vendredi 8:45- 12:00, 14:00-18h00</li>
+        <li>Samedi 8:45 - 12:00</li>
+    </ul>
+
+    <p >Contacter nous au 0101 ou en cliquant sur  le lien ci-dessous</p>
+    
+    <div class="contact">
+        <a href="/contact/contact.html"> Nous contacter </a> 
+    </div> 
+</footer>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title> Connexion </title>
+        <meta name="description" content="Bienvenu sur la pge de connexion de l'entreprise V.Parrot ">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="log.css">
+        <script src="/Log/log.js" async></script>
+    </head>
+    <br>
+    <br>
+    <br><br>
+    
+    <body>
+
+        <div class="login">
+            <form action="/Log/log.php" method="POST">
+                <section>
+                <h1>Connexion</h1>
+                <label><b>Adresse E-mail</b></label>
+                <input type="text" placeholder="Entrer l'adresse e-mail" name="user" required>
+                <label for="password"><b>Mot de passe</b></label>
+                <input type="password" placeholder="Entrer le mot de passe" name="mdp" required>
+                <input type="submit" id="submit" value="Connexion">
+                    <br>
+                </section>
+            </form> 
+            <button id="logout-btn">Déconnexion</button>
+        </div>
+        <div class="acceuil">
+            <a href="/Page accueil /Acceuil.html"> Acceuil</a>  
+        </div>
+    </body>
+</html>

@@ -1,0 +1,84 @@
+/* Réinitialisation de base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+/* Styles pour le conteneur d'inscription */
+.login {
+  max-width: 400px;
+  margin: 50px auto;
+  background-color: slategray;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.login h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.login input[type="text"],
+.login input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.login input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.login input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.login p {
+  text-align: center;
+}
+
+.login a {
+  color: white;
+  text-decoration: none;
+}
+
+.login a:hover {
+  text-decoration: underline;
+}
+
+/* Styles pour le lien de connexion */
+.acceuil {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.acceuil a {
+  color: #007bff;
+  text-decoration: none;
+  font-size: x-large;
+}
+
+.acceuil a:hover {
+  text-decoration: underline;
+}
+

@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: futura;
+}
+
+header {
+  width: 100%;
+  background-color: #f2f2f2;
+}
+
+nav {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header div img {
+  max-width: 150px;
+  max-height: 150px;
+  overflow: hidden;
+}
+
+.links {
+  width: 50%;
+}
+
+.links ul {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 10%;
+}
+
+.links li {
+  list-style-type: none;
+}
+
+/* Ajout d'une animation sur les liens */
+.links a {
+  text-decoration: none;
+  color:#262526;
+  font-size: 20px;
+  cursor: pointer;
+  padding-bottom: 0.5em;
+  background-image: linear-gradient(black, black);
+  background-size: 0% 0.1em;
+  background-position-y: 100%;
+  background-position-x: 50%;
+  background-repeat: no-repeat;
+  transition: background-size 0.3s ease-in-out;
+}
+
+/* Appliquer l'animation au survol des liens */
+.links a:hover {
+  background-size: 100% 0.10em;
+}
+
+
+/* stylage du pied de page */
+  footer
+  {
+  width: 100%;
+  background-color:#f2f2f2;
+  color: #262526;
+  }
+
+  footer ul 
+  {
+  text-align: right;
+  margin-right: 10%;
+  display: flex;
+  flex-direction: column;
+    }
+
+
+
+
+
+
+body {
+  background-color: #262526;
+  color: white;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+h1 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+
+.historique {
+  text-align: center;
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+
+.service {
+  text-align: center;
+  font-size: 24px;
+}
+
+.service p {
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+ul.srv li {
+  padding: 15px;
+  margin: 10px;
+  background-color: #333333;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  line-height: 1.4;
+  max-width: 300px;
+}
+
+
+ul.srv li:hover {
+  background-color: #555555;
+  transform: scale(1.05);
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+/* Style pour le système de notation */
+#rating {
+  font-size: 24px; /* Taille des étoiles */
+}
+
+#rating option::before {
+  content: '\2605'; /* Code Unicode de l'étoile pleine (★) */
+}
+
+#rating option:not(:checked)::before {
+  content: '\2606'; /* Code Unicode de l'étoile vide (☆) */
+}
+
+
+
+/* Style pour l'espace commentaire */
+.commentaire {
+  max-width: 420px; /* Largeur maximale du formulaire */
+  margin: 0 auto; /* Centrer le formulaire horizontalement */
+  padding: 20px; /* Espacement interne */
+  border: 1px solid #ccc; /* Bordure */
+  border-radius: 10px; /* Coins arrondis */ 
+}
+
+h2 {
+  margin-top: 0; /* Supprimer la marge supérieure du titre */
+}
+
+label {
+  display: block; /* Afficher les labels en bloc pour les espacer verticalement */
+  margin-bottom: 5px; /* Espacement en dessous des labels */
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%; /* Remplir toute la largeur disponible */
+  padding: 8px; /* Espacement interne */
+  margin-bottom: 10px; /* Espacement en dessous des champs de saisie */
+  border: 1px solid #f2f2f2; /* Bordure */
+  border-radius: 3px; /* Coins arrondis */
+}
+
+textarea {
+  resize: vertical; /* Permettre le redimensionnement vertical seulement */
+}
+
+input[type="submit"] {
+  background-color: #007bff; /* Couleur de fond du bouton */
+  color: #fff; /* Couleur du texte */
+  border: none; /* Supprimer la bordure */
+  padding: 10px 20px; /* Espacement interne */
+  cursor: pointer; /* Curseur de souris */
+  border-radius: 3px; /* Coins arrondis */
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3; /* Couleur de fond au survol du bouton */
+}
+
+/* Styles pour la section "Nous contacter" */
+.contact {
+  text-align: center;
+  margin: 30px auto;
+  max-width: 500px;
+}
+
+.contact a {
+  display: inline-block;
+  background-color: #262526;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.contact a:hover {
+  background-color: #0056b3;
+  transform: scale(1.1);
+}
+
+.contact p {
+  margin-bottom: 10px;
+}
+
+
+
+
