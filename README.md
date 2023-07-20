@@ -14,4 +14,4 @@ Pour vous connecter à la base de données POSTGRESQL, faites comme suit :
 * 		Démarrez l'application POSTGRESQL pour permettre les connexions à la base de données.
 * 		Vérifiez les paramètres du serveur POSTGRESQL pour vous assurer qu'ils sont correctement configurés.
 * 		Démarrez votre serveur POSTGRESQL pour autoriser les connexions à la base de données.
-Avec ces étapes, vous devriez être en mesure de vous connecter à la fois au fichier PHP et à la base de données POSTGRESQL sur votre appareil. Si vous rencontrez des problèmes, précisez-vous que toutes
+Avec ces étapes, vous devriez être en mesure de vous connecter à la fois au fichier PHP et à la base de données POSTGRESQL sur votre appareil. 
